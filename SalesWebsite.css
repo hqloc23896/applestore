@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.elemenet-navbar {
+  padding: 0px 20px;
+}
+.container-layout {
+  width: 70%;
+  height: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 20px 0px;
+}
+.container-layout-child {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 20px 0px;
+  width: 70%;
+  height: 600px;
+}
+
+.bg-color-col1 {
+  background-color: rgb(0, 255, 255, 0.5);
+}
+.bg-color-col2 {
+  background-color: rgb(255, 192, 203, 0.5);
+}
+.bg-color-col3 {
+  background-color: rgb(255, 228, 196, 0.5);
+}
+
+.bg-color-col4 {
+  background-color: rgba(212, 178, 136, 0.4);
+}
+
+.bg-element-second1 {
+  background-image: url(./images/img_1.webp);
+}
+.bg-element-second2 {
+  background-image: url(./images/img_2.webp);
+}
+.bg-element-second3 {
+  background-image: url(./images/img_3.webp);
+}
+
+.img-element-sale:hover > .card-img-top {
+  transform: translateY(-1%);
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+/* icon hover */
+.img-element-sale:hover > .icon-hover {
+  display: block;
+  color: black;
+}
+.icon-hover {
+  top: 25%;
+  left: 75%;
+  display: none;
+}
+.icon-hover > ul > li {
+  font-size: 25px;
+  list-style-type: none;
+}
+.icon-hover > ul > li:hover {
+  color: red;
+}
+
+/* icon hover tab */
+
+.img-element-sale:hover > .icon-hover-tab {
+  display: block;
+  color: white;
+}
+.icon-hover-tab {
+  top: 25%;
+  left: 70%;
+  display: none;
+}
+.icon-hover-tab > ul > li {
+  font-size: 25px;
+  list-style-type: none;
+}
+.icon-hover-tab > ul > li:hover {
+  color: blue;
+}
+
+.card-body > a > h5:hover {
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.img-element-second {
+  background-size: cover;
+  background-position: center;
+  width: 32%;
+  height: 180px;
+}
+
+.img-element-popular {
+  width: 19%;
+  height: 220px;
+}
+.img-element-popular-child:hover {
+  background-image: radial-gradient(#6f6a65, #ece1e8);
+}
+
+.news-paper {
+  background-image: url(./images/texture-319748_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.news-paper-text {
+  right: 50%;
+  top: 30%;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  bottom: 0;
+}
+.link-col2-footter {
+  text-decoration: none;
+}
+.icon-social-media img {
+  margin: 5px;
+  margin-left: 0px;
+}
+.icon-payment img {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.input-register {
+  left: 50%;
+  transform: translate(-50%);
+}
+.container-input-register {
+  padding: 25px 0px;
+}
+.img-element-feed {
+  width: 19%;
+}
